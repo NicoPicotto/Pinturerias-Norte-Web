@@ -1,0 +1,63 @@
+.cardContainer {
+	display: flex;
+	width: 20em;
+	margin: 1em;
+	flex-wrap: wrap;
+	padding: 1em;
+	height: 30em;
+	align-items: center;
+	border: 1px solid #0dcaf0;
+	border-radius: 1em;
+}
+
+.cardBody {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Mukta", sans-serif;
+	justify-content: space-between;
+}
+
+.cardImage {
+	width: 70%;
+	padding: 0.5em;
+}
+
+.cardTitle {
+	display: flex;
+	height: fit-content;
+	font-size: 1.2em;
+	margin-bottom: 1em;
+	font-family: "Secular One", sans-serif;
+	text-align: center;
+}
+
+.cardVerMas {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	font-family: "Mukta", sans-serif;
+	font-size: 1.2em;
+	color: #0dcaf0;
+	background-color: white;
+	border-color: #0dcaf0 !important;
+	border-radius: 0.5em;
+}
+
+.cardVerMas:hover {
+	background-color: #0dcaf0;
+	color: white;
+}
+
+.cardPrice {
+	display: flex;
+	height: fit-content;
+	padding: 0.5em;
+	font-size: 1.2em;
+	font-family: "Secular One", sans-serif;
+	background-color: #0dcaf0;
+	color: white;
+	border-radius: 0.5em;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Secular+One&display=swap");

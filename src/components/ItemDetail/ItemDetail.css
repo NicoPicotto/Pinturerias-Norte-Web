@@ -1,0 +1,161 @@
+.cardDetailContainer {
+	display: flex;
+	width: 80%;
+	flex-direction: row;
+	border: none;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 1200px) {
+	.cardDetailContainer {
+		flex-direction: column;
+	}
+
+	.cardDetailBody {
+		align-items: center;
+	}
+
+	.cardDetailInfo {
+		align-items: center;
+	}
+
+	.itemCountContainer {
+		justify-content: center;
+	}
+	.cardDetailInfo {
+		text-align: center;
+	}
+	.cardDetailTitle {
+		text-align: center;
+	}
+	.cardDetailImage {
+		width: auto;
+	}
+}
+
+.imgDetailContainer {
+	display: flex;
+	height: fit-content;
+	width: 50%;
+	padding: 2em;
+	justify-content: center;
+}
+
+.cardDetailImage {
+	display: flex;
+	height: 100%;
+}
+
+.cardDetailBody {
+	display: flex;
+	height: fit-content;
+	flex-direction: column;
+	width: 100%;
+}
+
+.cardDetailInfo {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	margin-bottom: 1em;
+	justify-content: center;
+	height: fit-content;
+}
+
+.cardDetailTitle {
+	display: flex;
+	font-family: "Secular One", sans-serif;
+	font-size: 1.5em;
+}
+
+.cardDetailText {
+	display: flex;
+	font-family: "Mukta", sans-serif;
+	font-size: 1em;
+}
+
+.cardDetailPrice {
+	display: flex;
+	padding: 0.3em;
+	font-size: 1.5em;
+	font-family: "Secular One", sans-serif;
+	background-color: #0dcaf0;
+	color: white;
+	border-radius: 0.5em;
+	width: fit-content;
+}
+
+.cardAgregarCarrito {
+	display: flex;
+	width: fit-content;
+	margin-top: 0.5em;
+	justify-content: center;
+	text-decoration: none;
+	font-family: "Mukta", sans-serif;
+	font-size: 1.2em;
+	padding: 0.5em;
+	color: #0dcaf0 !important;
+	background-color: white !important;
+	border-color: #0dcaf0 !important;
+	border-radius: 0.5em;
+}
+
+.cardAgregarCarrito:hover {
+	background-color: #0dcaf0 !important;
+	color: white !important;
+}
+
+.cardAgregarCarrito:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border-color: #0dcaf0 !important;
+}
+
+.backDetail {
+	display: flex;
+	width: fit-content;
+	margin-top: 0.5em;
+	justify-content: center;
+	text-decoration: none;
+	font-family: "Mukta", sans-serif;
+	font-size: 0.8em;
+	padding: 0.5em;
+	color: rgb(160, 4, 4);
+	background-color: white;
+	border-color: rgb(160, 4, 4) !important;
+	border-radius: 0.5em;
+}
+
+.backDetail:hover {
+	background-color: rgb(160, 4, 4);
+	color: white;
+}
+
+.goCart {
+	display: flex;
+	width: fit-content;
+	margin-top: 0.5em;
+	justify-content: center;
+	text-decoration: none;
+	font-family: "Mukta", sans-serif;
+	font-size: 1em;
+	padding: 0.5em;
+	color: rgb(4, 160, 25) !important;
+	background-color: white !important;
+	border-color: rgb(4, 160, 25) !important;
+	border-radius: 0.5em;
+}
+
+.goCart:hover {
+	background-color: rgb(4, 160, 25) !important;
+	color: white !important;
+}
+
+.goCart:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border-color: rgb(4, 160, 25) !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Secular+One&display=swap");

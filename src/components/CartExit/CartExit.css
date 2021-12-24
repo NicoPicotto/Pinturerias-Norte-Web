@@ -1,0 +1,91 @@
+.formContainer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 1200px) {
+	.cartExitContainer {
+		width: 80% !important;
+	}
+}
+
+.cartExitContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+	width: 60%;
+	font-family: "Mukta", sans-serif;
+}
+
+.formClean {
+	color: rgb(160, 4, 4) !important;
+	background-color: white !important;
+	border-color: rgb(160, 4, 4) !important;
+	font-family: "Mukta", sans-serif;
+	border-radius: 0.5em;
+}
+
+.formClean:hover {
+	color: white !important;
+	background-color: rgb(160, 4, 4) !important;
+	border-color: rgb(160, 4, 4) !important;
+}
+
+.formClean:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border-color: rgb(160, 4, 4) !important;
+}
+
+.formEnd {
+	color: rgb(4, 160, 25) !important;
+	background-color: white !important;
+	border-color: rgb(4, 160, 25) !important;
+	margin-bottom: 1em;
+	font-family: "Mukta", sans-serif;
+	border-radius: 0.5em;
+}
+
+.formEnd:hover {
+	color: white !important;
+	background-color: rgb(4, 160, 25) !important;
+	border-color: rgb(4, 160, 25) !important;
+}
+
+.formEnd:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border-color: rgb(4, 160, 25) !important;
+}
+
+.mensajeCompraContainer {
+	display: flex;
+	margin: auto;
+	width: fit-content;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(4, 160, 25);
+	padding: 1em;
+	border-radius: 1em;
+	margin-bottom: 2em;
+}
+
+.mensajeCompra {
+	display: flex;
+	font-family: "Secular One", sans-serif;
+	font-size: 1.2em;
+	color: white;
+}
+
+.mensajeCompraMin {
+	display: flex;
+	font-family: "Mukta", sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Secular+One&display=swap");

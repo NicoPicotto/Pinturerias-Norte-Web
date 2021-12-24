@@ -1,0 +1,52 @@
+.footerContainer {
+	text-align: center;
+	margin-top: 1em;
+	bottom: 0;
+}
+
+@media (max-width: 1200px) {
+	.footerText {
+		font-size: 0.8em;
+	}
+
+	.footerHeader {
+		font-size: 0.8em !important;
+	}
+}
+
+.footerHeader {
+	background-color: #03a3c4;
+	color: white;
+	font-family: "Secular One", sans-serif;
+	font-size: 1em;
+	padding: 0;
+}
+
+.footerBody {
+	background-color: #0dcaf0;
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-size: 1.2em;
+	align-items: center;
+}
+
+.footerText {
+	font-family: "Mukta", sans-serif;
+	margin-bottom: 0;
+}
+
+.footerSocial {
+	display: flex;
+	width: 1em;
+	margin-left: 0.5em;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+	color: rgba(255, 255, 255, 0.705);
+}
+
+.footerSocial:hover {
+	color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Secular+One&display=swap");

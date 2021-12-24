@@ -1,0 +1,12 @@
+.errorPageTitle {
+	font-family: "Secular One", sans-serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 10em;
+	margin-bottom: 10em;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Secular+One&display=swap");

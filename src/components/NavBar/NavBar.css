@@ -1,0 +1,41 @@
+.navContainer {
+	margin-bottom: 3em;
+}
+
+#root > div > div:nth-child(1) > nav {
+	padding-left: 1em;
+	padding-right: 1em;
+	line-height: 2em;
+	position: fixed;
+	width: 100%;
+}
+
+.navLogo {
+	font-family: "Secular One", sans-serif;
+	font-size: 2em;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
+	color: rgba(255, 255, 255, 0.829);
+}
+
+.navLogo:hover {
+	color: white;
+}
+
+.navLinks {
+	font-family: "Mukta", sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 1em;
+	transition: 0.2s ease-in-out;
+	color: rgba(255, 255, 255, 0.705);
+}
+
+.navLinks:hover {
+	color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Secular+One&display=swap");

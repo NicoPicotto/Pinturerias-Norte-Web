@@ -1,0 +1,70 @@
+.noProductContainer{
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    border: none;
+	padding: 3em;
+}
+
+.noProductText{
+	display: flex;
+	font-family: 'Secular One', sans-serif;
+	font-size: 2em;
+}
+
+.cartContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    border: none;
+}
+
+.cartBoxDetail{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Secular One', sans-serif;
+    background-color: #0dcaf0;
+    height: fit-content;
+    color: white;
+    margin: 1em;
+    text-align: center;
+    border-radius: 0.8em;
+}
+
+.cartEndContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.cardVaciarCarrito {
+    display: flex;
+	width: fit-content;
+	margin-top: 0.5em;
+	justify-content: center;
+	text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+	font-size: 1em;
+	padding: 0.5em;
+    margin-left: 0.5em;
+	color: rgb(160, 4, 4);
+	background-color: white;
+	border-color: rgb(160, 4, 4) !important;
+    border-radius: 0.5em;
+}
+
+.cardVaciarCarrito:hover {
+	background-color: rgb(160, 4, 4);
+	color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Secular+One&display=swap');

@@ -1,0 +1,9 @@
+.itemDetailContainer {
+	display: flex;
+	width: 100%;
+	height: fit-content;
+	padding: 2em;
+	margin-bottom: 2em;
+	align-items: center;
+	justify-content: center;
+}
