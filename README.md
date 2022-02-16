@@ -8,6 +8,8 @@ _En este proyecto se creó una aplicación tipo e-commerce para una pinturería 
 
 ![1](https://github.com/NicoPicotto/proyectoFinalReactJs/blob/master/src/img/gifexample.gif)
 
+[Podés ver el sitio en vivo haciendo click aquí](https://zen-goldberg-ea3708.netlify.app/)
+
 ## Construido con 🛠️
  * [React Bootrstrap](https://react-bootstrap.github.io/) - Para la aplicación de estilos en Form, Buttons, Nav, Cards y Spinner.
  * [React Toastify](https://www.npmjs.com/package/react-toastify) - Para notificar de forma amena y no invasiva cuando el usuario agrega y/o elimina un producto del carrito de compras.
